@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="PT_Needit" max_length="40" name="x_58872_needit_pt_needit" type="collection">
+    <element audit="true" extends="task" label="PT_Needit" max_length="40" name="x_58872_needit_pt_needit" sizeclass="2" type="collection">
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="New field 2" max_length="100" name="new_field_2" type="integer"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request Type" mandatory="true" max_length="40" name="u_choice_5" type="string">
             <choice>
@@ -26,6 +26,7 @@
         <element label="New Due Date" max_length="40" name="u_glide_date_8" type="glide_date"/>
         <element label="New Integer Added records" max_length="40" name="u_integer_1" type="integer"/>
         <element label="New field 3" max_length="40" name="u_integer_3" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
         <element label="Requested for" mandatory="true" max_length="32" name="u_reference_4" reference="sys_user" type="reference"/>
     </element>
 </database>
