@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="needit_staging" max_length="40" name="x_58872_needit_needit_staging" type="collection">
+        <element attributes="import_attribute_name=BusinessUnit,edge_encryption_enabled=true" label="BusinessUnit" max_length="40" name="u_businessunit" type="string"/>
+        <element attributes="import_attribute_name=ContactID,edge_encryption_enabled=true" label="ContactID" max_length="477" name="u_contactid" type="string"/>
+        <element attributes="import_attribute_name=Contact_Name,edge_encryption_enabled=true" label="Contact_Name" max_length="40" name="u_contact_name" type="string"/>
+        <element attributes="import_attribute_name=Contact_Type,edge_encryption_enabled=true" label="Contact_Type" max_length="122" name="u_contact_type" type="string"/>
+        <element attributes="import_attribute_name=CreatedBy,edge_encryption_enabled=true" label="CreatedBy" max_length="40" name="u_createdby" type="string"/>
+        <element attributes="import_attribute_name=CreatedDT,edge_encryption_enabled=true" label="CreatedDT" max_length="40" name="u_createddt" type="string"/>
+        <element attributes="import_attribute_name=DepartmentOrgUnit" label="DepartmentOrgUnit" max_length="40" name="u_departmentorgunit" type="float"/>
+        <element attributes="import_attribute_name=DepartmentUnit,edge_encryption_enabled=true" label="DepartmentUnit" max_length="40" name="u_departmentunit" type="string"/>
+        <element attributes="import_attribute_name=EID,edge_encryption_enabled=true" label="EID" max_length="40" name="u_eid" type="string"/>
+        <element attributes="import_attribute_name=OrginationUnit,edge_encryption_enabled=true" label="OrginationUnit" max_length="40" name="u_orginationunit" type="string"/>
+        <element attributes="import_attribute_name=RAID,edge_encryption_enabled=true" label="RAID" max_length="40" name="u_raid" type="string"/>
+        <element attributes="import_attribute_name=UpdatedBy,edge_encryption_enabled=true" label="UpdatedBy" max_length="40" name="u_updatedby" type="string"/>
+        <element attributes="import_attribute_name=UpdatedDT,edge_encryption_enabled=true" label="UpdatedDT" max_length="40" name="u_updateddt" type="string"/>
+    </element>
+</database>
